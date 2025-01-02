@@ -45,8 +45,8 @@ section {
 /* Style the footer */
 footer {
     text-align: center;
-    background-color: #ff0000;
-    color: rgb(3, 64, 248);
+    background-color: #000000;
+    color: rgb(255, 255, 255);
     padding: 10px;
     position: fixed;
     width: 100%;
