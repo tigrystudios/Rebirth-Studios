@@ -16,7 +16,7 @@ header {
     height: auto;
 }
 
-/* Hamburger icon styling */
+/* Hamburger button styling */
 .hamburger {
     font-size: 30px;
     background-color: transparent;
@@ -26,13 +26,14 @@ header {
     top: 20px;
     left: 20px;
     z-index: 2;
+    display: block; /* Make sure it is visible */
 }
 
 /* Sidebar styling - initially hidden */
 .sidebar {
     position: fixed;
     top: 0;
-    left: -250px; /* Sidebar is hidden initially */
+    left: -250px; /* Sidebar hidden initially */
     width: 250px;
     height: 100%;
     background-color: #333;
@@ -61,7 +62,20 @@ header {
     left: 0; /* Show sidebar */
 }
 
-/* Style for the background overlay */
+/* Style for the content section */
+section {
+    margin-left: 20px;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Style for the overlay background (optional for effect) */
 .overlay {
     display: none;
     position: fixed;
