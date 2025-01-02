@@ -36,7 +36,10 @@ nav ul li a {
     color: #4CAF50;
     text-decoration: none;
 }
-
+:hover ul li a {
+    color: rgb(245, 14, 14);
+    text-decoration: none;
+}
 /* Style the section */
 section {
     margin: 20px 0;
