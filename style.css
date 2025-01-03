@@ -7,17 +7,18 @@ body, ul {
 
 /* Body Background */
 body {
-    background-color: #ff0000; /* Set your desired background color or image */
+    background-color: #560505; /* Set your desired background color or image */
 }
 
 /* Header Styling */
 header {
-    display: flex;
-    justify-content: space-between; /* Space between logo and nav */
-    align-items: center; /* Vertically align logo and nav */
-    padding: 10px 20px;
+    position: relative; /* Allows child elements to be positioned absolutely */
+    height: 80px; /* Adjust header height */
     background-color: #000000; /* Optional: Header background */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+    padding: 0 20px; /* Space around the content */
+    display: flex;
+    align-items: center;
 }
 
 /* Logo Styling */
@@ -26,6 +27,12 @@ header {
 }
 
 /* Navigation Menu Styling */
+nav {
+    position: absolute; /* Place navigation at a specific position */
+    top: 10px; /* Push it from the top of the header */
+    right: 20px; /* Push it from the right edge of the header */
+}
+
 nav ul {
     display: flex; /* Arrange buttons horizontally */
     list-style: none; /* Remove bullets */
@@ -34,12 +41,12 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px; /* Add spacing between buttons */
+    margin: 0 10px; /* Add spacing between buttons */
 }
 
 nav ul li a {
     text-decoration: none; /* Remove underline */
-    color: #333; /* Set button text color */
+    color: #777474; /* Set button text color */
     font-weight: bold;
     font-size: 16px;
 }
