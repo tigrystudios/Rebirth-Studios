@@ -5,13 +5,25 @@ body, ul {
     box-sizing: border-box;
 }
 
+/* Custom Font Definition */
+@font-face {
+    font-family: 'LD SLENDER'; /* Name of your custom font */
+    src: url('fonts/LD SLENDER.woff2') format('woff2'), /* Path to font file */
+         url('fonts/LD SLENDER.woff') format('woff');   /* Fallback format */
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Body Background */
 body {
     background-color: #560505; /* Set your desired background color or image */
+    font-family: 'MyCustomFont', sans-serif; /* Apply custom font globally */
 }
+
 section {
     color: aqua;
 }
+
 /* Header Styling */
 header {
     position: relative; /* Allows child elements to be positioned absolutely */
@@ -21,6 +33,7 @@ header {
     padding: 0 20px; /* Space around the content */
     display: flex;
     align-items: center;
+    font-family: 'MyCustomFont', sans-serif; /* Apply custom font to header */
 }
 
 /* Logo Styling */
@@ -51,6 +64,7 @@ nav ul li a {
     color: #777474; /* Set button text color */
     font-weight: bold;
     font-size: 16px;
+    font-family: 'MyCustomFont', sans-serif; /* Apply custom font to links */
 }
 
 nav ul li a:hover {
@@ -66,4 +80,5 @@ footer {
     position: fixed; /* Keep footer at the bottom */
     bottom: 0;
     width: 100%;
+    font-family: 'MyCustomFont', sans-serif; /* Apply custom font to footer */
 }
