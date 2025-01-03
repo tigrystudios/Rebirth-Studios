@@ -9,7 +9,10 @@ body, ul {
 body {
     background-color: #560505; /* Set your desired background color or image */
 }
-
+section {
+    height: 75px;
+    align-items: center;
+}
 /* Header Styling */
 header {
     position: relative; /* Allows child elements to be positioned absolutely */
