@@ -1,44 +1,61 @@
-/* Reset default styles */
+/* General Reset */
 body, ul {
     margin: 0;
     padding: 0;
+}
+
+/* Body background */
+body {
+    background-color: #ff0000; /* Set your desired background color or use an image */
 }
 
 /* Style for the header */
 header {
     display: flex;
     align-items: center;
-    padding: 10px 20px;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #b61212; /* Optional: Header background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
 }
 
 /* Style for the logo */
 .logo {
-    height: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust as needed */
 }
 
 /* Style for the navigation menu */
 nav {
-    position: absolute;
-    top: 0;
-    right: 20px;
-    padding: 10px;
+    padding: 10px 20px; /* Ensure consistent padding */
 }
 
 nav ul {
     display: flex;
     list-style-type: none; /* Remove bullets */
+    margin: 0;
 }
 
 nav ul li {
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #000; /* Adjust to your theme */
+    color: #333; /* Match your design */
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #007BFF; /* Change color on hover */
+    color: #007BFF; /* Hover color */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #333; /* Dark background */
+    color: #fff; /* Light text color */
+    position: fixed; /* Keep footer at the bottom */
+    bottom: 0;
+    width: 100%;
 }
