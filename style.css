@@ -13,7 +13,7 @@ body {
 /* Header Styling */
 header {
     position: relative; /* Allows child elements to be positioned absolutely */
-    height: 80px; /* Adjust header height */
+    height: 100px; /* Adjust header height */
     background-color: #000000; /* Optional: Header background */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
     padding: 0 20px; /* Space around the content */
