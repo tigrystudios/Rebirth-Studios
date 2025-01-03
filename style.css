@@ -28,7 +28,7 @@ header {
 /* Style for the navigation menu */
 nav {
     position: absolute;
-    top: 20px; /* Position it at the top right of the header */
+    top: 15px; /* Position it at the top right of the header */
     right: 20px;
 }
 
