@@ -2,64 +2,58 @@
 body, ul {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/* Body background */
+/* Body Background */
 body {
-    background-color: #ff0000; /* Set your desired background color or use an image */
+    background-color: #ff0000; /* Set your desired background color or image */
 }
 
-/* Style for the header */
+/* Header Styling */
 header {
     display: flex;
-    align-items: center; /* Vertically center elements */
-    justify-content: space-between; /* Separate logo and navigation */
-    padding: 20px;
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center; /* Vertically align logo and nav */
+    padding: 10px 20px;
     background-color: #000000; /* Optional: Header background */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
-    position: relative; /* To help position elements properly */
 }
 
-/* Style for the logo */
+/* Logo Styling */
 .logo {
-    height: 150px; /* Adjust as needed */
+    height: 50px; /* Adjust size as needed */
 }
 
-/* Style for the navigation menu */
-nav {
-    margin-left: auto; /* Push navigation to the right */
-    display: flex;
-    align-items: center; /* Vertically center the buttons */
-    height: 100%; /* Ensure nav aligns with header height */
-}
-
+/* Navigation Menu Styling */
 nav ul {
-    display: flex;
-    list-style-type: none; /* Remove bullets */
+    display: flex; /* Arrange buttons horizontally */
+    list-style: none; /* Remove bullets */
     margin: 0;
     padding: 0;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 15px; /* Add spacing between buttons */
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #333; /* Match your design */
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Set button text color */
     font-weight: bold;
+    font-size: 16px;
 }
 
 nav ul li a:hover {
-    color: #007BFF; /* Hover color */
+    color: #007BFF; /* Change color on hover */
 }
 
-/* Footer styles */
+/* Footer Styling */
 footer {
     text-align: center;
     padding: 10px 20px;
-    background-color: #333; /* Dark background */
-    color: #fff; /* Light text color */
+    background-color: #333; /* Footer background color */
+    color: #fff; /* Footer text color */
     position: fixed; /* Keep footer at the bottom */
     bottom: 0;
     width: 100%;
