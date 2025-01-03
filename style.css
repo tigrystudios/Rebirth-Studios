@@ -10,8 +10,7 @@ body {
     background-color: #560505; /* Set your desired background color or image */
 }
 section {
-    height: 75px;
-    align-items: center;
+    text-decoration-color: aqua;
 }
 /* Header Styling */
 header {
