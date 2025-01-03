@@ -6,29 +6,35 @@ body, ul {
 
 /* Body background */
 body {
-    background-color: #ce0808; /* Set your desired background color or use an image */
+    background-color: #ff0000; /* Set your desired background color or use an image */
 }
 
 /* Style for the header */
 header {
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center horizontally */
+    align-items: center; /* Vertically center elements */
+    justify-content: space-between; /* Separate logo and navigation */
     padding: 20px;
-    background-color: #00000000; /* Optional: Header background */
+    background-color: #000000; /* Optional: Header background */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+    position: relative; /* To help position elements properly */
 }
 
 /* Style for the logo */
 .logo {
     height: 50px; /* Adjust as needed */
-    margin-bottom: 10px; /* Add spacing below the logo */
 }
 
 /* Style for the navigation menu */
+nav {
+    margin-left: auto; /* Push navigation to the right */
+    display: flex;
+    align-items: center; /* Vertically center the buttons */
+    height: 100%; /* Ensure nav aligns with header height */
+}
+
 nav ul {
     display: flex;
-    justify-content: center; /* Center the buttons */
     list-style-type: none; /* Remove bullets */
     margin: 0;
     padding: 0;
