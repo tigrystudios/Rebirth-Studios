@@ -13,9 +13,10 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; /* Center items horizontally */
     padding: 20px;
-    background-color: #b61212; /* Optional: Header background */
+    position: relative; /* To position nav absolutely inside the header */
+    background-color: #050000; /* Optional: Header background */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
 }
 
@@ -26,7 +27,9 @@ header {
 
 /* Style for the navigation menu */
 nav {
-    padding: 10px 20px; /* Ensure consistent padding */
+    position: absolute;
+    top: 20px; /* Position it at the top right of the header */
+    right: 20px;
 }
 
 nav ul {
